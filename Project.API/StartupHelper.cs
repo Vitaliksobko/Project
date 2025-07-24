@@ -1,0 +1,51 @@
+
+using Project.Application;
+using Project.Infrastructure;
+using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
+
+
+namespace Project.API;
+
+public static class StartupHelperExtensions
+{
+    public static WebApplication ConfigureService(this WebApplicationBuilder builder)
+    {
+        
+        builder.Services.AddControllers();
+
+        builder.Services.AddApplicationServices();
+        builder.Services.AddInfrastructureServices(builder.Configuration);
+        builder.Services.AddFluentValidationAutoValidation();
+        
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+        
+        builder.Services.AddCors(options =>
+        {
+            options.AddDefaultPolicy(corsPolicyBuilder =>
+            {
+                corsPolicyBuilder.WithOrigins("http://localhost:4200")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials();
+            });
+        });
+        
+        return builder.Build();
+    }
+
+    public static WebApplication ConfigurePipeline(this WebApplication app)
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+        app.UseHttpsRedirection();
+        app.UseRouting();
+        app.UseCors();
+        app.UseAuthentication();
+        app.UseAuthorization();
+        app.MapControllers();
+        
+
+        return app;
+    }
+}

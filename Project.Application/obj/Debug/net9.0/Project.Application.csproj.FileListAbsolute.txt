@@ -1,0 +1,17 @@
+D:\Projeckt\Project\Project.Application\bin\Debug\net9.0\Project.Application.deps.json
+D:\Projeckt\Project\Project.Application\bin\Debug\net9.0\Project.Application.dll
+D:\Projeckt\Project\Project.Application\bin\Debug\net9.0\Project.Application.pdb
+D:\Projeckt\Project\Project.Application\bin\Debug\net9.0\Project.Core.dll
+D:\Projeckt\Project\Project.Application\bin\Debug\net9.0\Project.Infrastructure.dll
+D:\Projeckt\Project\Project.Application\bin\Debug\net9.0\Project.Core.pdb
+D:\Projeckt\Project\Project.Application\bin\Debug\net9.0\Project.Infrastructure.pdb
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project.Application.csproj.AssemblyReference.cache
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project.Application.AssemblyInfoInputs.cache
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project.Application.AssemblyInfo.cs
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project.Application.csproj.CoreCompileInputs.cache
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project..E365C10A.Up2Date
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project.Application.dll
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\refint\Project.Application.dll
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\Project.Application.pdb
+D:\Projeckt\Project\Project.Application\obj\Debug\net9.0\ref\Project.Application.dll
