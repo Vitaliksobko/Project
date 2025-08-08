@@ -1,6 +1,7 @@
 
 using System.Reflection;
 using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
 using Project.Application.Abstractions;
 using Project.Application.Models;
@@ -20,6 +21,7 @@ public static class ApplicationServicesRegistration
         services.AddSingleton<IDictionary<string, Guid>>(new Dictionary<string, Guid>());
         
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+        
         return services;
     }
 }

@@ -1,4 +1,5 @@
 
+using FluentValidation;
 using Project.Application;
 using Project.Infrastructure;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
@@ -16,6 +17,10 @@ public static class StartupHelperExtensions
         builder.Services.AddApplicationServices();
         builder.Services.AddInfrastructureServices(builder.Configuration);
         builder.Services.AddFluentValidationAutoValidation();
+        builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(ApplicationAssemblyMarker).Assembly));
+        builder.Services.AddValidatorsFromAssembly(typeof(ApplicationAssemblyMarker).Assembly);
+        builder.Services.AddFluentValidationAutoValidation();
+        
         
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();

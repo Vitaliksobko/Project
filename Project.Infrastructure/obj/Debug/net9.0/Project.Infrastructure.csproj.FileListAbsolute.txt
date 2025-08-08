@@ -15,3 +15,4 @@ D:\Projeckt\Project\Project.Infrastructure\obj\Debug\net9.0\refint\Project.Infra
 D:\Projeckt\Project\Project.Infrastructure\obj\Debug\net9.0\Project.Infrastructure.pdb
 D:\Projeckt\Project\Project.Infrastructure\obj\Debug\net9.0\Project.Infrastructure.genruntimeconfig.cache
 D:\Projeckt\Project\Project.Infrastructure\obj\Debug\net9.0\ref\Project.Infrastructure.dll
+D:\Projeckt\Project\Project.Infrastructure\obj\Debug\net9.0\Project.Infrastructure.sourcelink.json

@@ -161,3 +161,7 @@ D:\Projeckt\Project\Project.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt
 D:\Projeckt\Project\Project.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projeckt\Project\Project.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projeckt\Project\Project.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projeckt\Project\Project.API\bin\Debug\net9.0\MediatR.dll
+D:\Projeckt\Project\Project.API\bin\Debug\net9.0\MediatR.Contracts.dll
+D:\Projeckt\Project\Project.API\bin\Debug\net9.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Projeckt\Project\Project.API\obj\Debug\net9.0\Project.API.sourcelink.json
