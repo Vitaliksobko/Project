@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "EhtxC05geeDfKpvp8qCFBbci1cFZyfMr31GQkMpEc3I=",
+  "Source": "TaskHub.API",
+  "BasePath": "_content/TaskHub.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
