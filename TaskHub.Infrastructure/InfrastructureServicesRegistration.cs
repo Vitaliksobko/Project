@@ -61,6 +61,14 @@ public static class InfrastructureServicesRegistration
         services.AddScoped(typeof(IBaseRepository<>),typeof(BaseRepository<>));
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IProjectRepository, ProjectRepository>();
+        services.AddScoped<IColumnRepository, ColumnRepository>();
+        services.AddScoped<ICommentRepository, CommentRepository>();
+        services.AddScoped<IProjectMemberRepository, ProjectMemberRepository>();
+        services.AddScoped<IAttachmentRepository, AttachmentRepository>();
+        services.AddScoped<IBoardRepository, BoardRepository>();
+        services.AddScoped<INotificationRepository, NotificationRepository>();
+        services.AddScoped<ITaskItemRepository, TaskItemRepository>();
         
 
         return services;
