@@ -1,0 +1,15 @@
+D:\Projeckt\Project\TaskHub.Core\bin\Debug\net9.0\TaskHub.Core.deps.json
+D:\Projeckt\Project\TaskHub.Core\bin\Debug\net9.0\TaskHub.Core.runtimeconfig.json
+D:\Projeckt\Project\TaskHub.Core\bin\Debug\net9.0\TaskHub.Core.dll
+D:\Projeckt\Project\TaskHub.Core\bin\Debug\net9.0\TaskHub.Core.pdb
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.csproj.AssemblyReference.cache
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.AssemblyInfoInputs.cache
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.AssemblyInfo.cs
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.csproj.CoreCompileInputs.cache
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.sourcelink.json
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.dll
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\refint\TaskHub.Core.dll
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.pdb
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\TaskHub.Core.genruntimeconfig.cache
+D:\Projeckt\Project\TaskHub.Core\obj\Debug\net9.0\ref\TaskHub.Core.dll
