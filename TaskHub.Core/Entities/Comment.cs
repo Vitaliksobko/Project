@@ -8,8 +8,7 @@ public class Comment
 
     public string Content { get; set; } = default!;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-    // Navigation
+    
     public TaskItem TaskItem { get; set; } = default!;
     public User User { get; set; } = default!;
 }

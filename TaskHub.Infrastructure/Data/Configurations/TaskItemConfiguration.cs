@@ -13,20 +13,17 @@ public class TaskItemConfiguration : IEntityTypeConfiguration<TaskItem>
         builder.Property(t => t.Title)
             .IsRequired()
             .HasMaxLength(200);
-
-        // TaskItem -> AssignedTo (optional)
+        
         builder.HasOne(t => t.AssignedTo)
             .WithMany(u => u.AssignedTasks)
             .HasForeignKey(t => t.AssignedToId)
             .OnDelete(DeleteBehavior.SetNull);
-
-        // TaskItem -> CreatedBy (required)
+        
         builder.HasOne(t => t.CreatedBy)
             .WithMany(u => u.CreatedTasks)
             .HasForeignKey(t => t.CreatedById)
             .OnDelete(DeleteBehavior.Restrict);
 
-        // TaskItem -> Column (required)
         builder.HasOne(t => t.Column)
             .WithMany(c => c.Tasks)
             .HasForeignKey(t => t.ColumnId);

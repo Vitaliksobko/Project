@@ -1,8 +1,10 @@
 
 using FluentValidation;
+using Serilog;
 using TaskHub.Application;
 using TaskHub.Infrastructure;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
+using TaskHub.API.Middlewares;
 
 
 namespace TaskHub.API;
@@ -25,6 +27,15 @@ public static class StartupHelperExtensions
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Debug()
+            .WriteTo.Console()
+            .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+            .CreateLogger();
+        
+        builder.Host.UseSerilog();
+
+        
         builder.Services.AddCors(options =>
         {
             options.AddDefaultPolicy(corsPolicyBuilder =>
@@ -41,6 +52,7 @@ public static class StartupHelperExtensions
 
     public static WebApplication ConfigurePipeline(this WebApplication app)
     {
+        app.UseMiddleware<ExceptionHandlingMiddleware>();
         app.UseSwagger();
         app.UseSwaggerUI();
         app.UseHttpsRedirection();

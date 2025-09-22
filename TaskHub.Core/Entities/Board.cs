@@ -7,8 +7,7 @@ public class Board
 
     public string Name { get; set; } = default!;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-    // Navigation
+    
     public Project Project { get; set; } = default!;
     public ICollection<Column> Columns { get; set; } = new List<Column>();
 }

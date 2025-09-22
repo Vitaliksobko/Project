@@ -9,8 +9,7 @@ public class Attachment
     public string FileName { get; set; } = default!;
     public string FileUrl { get; set; } = default!;
     public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
-
-    // Navigation
+    
     public TaskItem TaskItem { get; set; } = default!;
     public User UploadedBy { get; set; } = default!;
 }

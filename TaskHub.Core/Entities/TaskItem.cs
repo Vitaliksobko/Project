@@ -17,8 +17,7 @@ public class TaskItem
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
-
-    // Navigation
+    
     public Column Column { get; set; } = default!;
     public User? AssignedTo { get; set; }
     public User CreatedBy { get; set; } = default!;

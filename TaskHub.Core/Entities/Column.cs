@@ -7,8 +7,7 @@ public class Column
 
     public string Name { get; set; } = default!;
     public int Order { get; set; }
-
-    // Navigation
+    
     public Board Board { get; set; } = default!;
     public ICollection<TaskItem> Tasks { get; set; } = new List<TaskItem>();
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+331d68259d51df00a3d317243374bc7b87253e12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fcdbc1c34a05a956d875f58f3ca8f76bbc35100")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

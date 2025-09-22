@@ -165,3 +165,12 @@ D:\Projeckt\Project\TaskHub.API\obj\Debug\net9.0\refint\TaskHub.API.dll
 D:\Projeckt\Project\TaskHub.API\obj\Debug\net9.0\TaskHub.API.pdb
 D:\Projeckt\Project\TaskHub.API\obj\Debug\net9.0\TaskHub.API.genruntimeconfig.cache
 D:\Projeckt\Project\TaskHub.API\obj\Debug\net9.0\ref\TaskHub.API.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.AspNetCore.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+D:\Projeckt\Project\TaskHub.API\bin\Debug\net9.0\Serilog.Sinks.File.dll

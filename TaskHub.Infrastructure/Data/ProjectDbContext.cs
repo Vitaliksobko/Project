@@ -33,8 +33,7 @@ public class ProjectDbContext : IdentityDbContext<User, Role, Guid>
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProjectDbContext).Assembly);
         
         base.OnModelCreating(modelBuilder);
-    
-        // Визначаємо статичні GUID як константи
+        
         var userRoleId = new Guid("00000000-0000-0000-0000-000000000001");
         var adminRoleId = new Guid("00000000-0000-0000-0000-000000000002");
     

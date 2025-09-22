@@ -9,8 +9,7 @@ public class Project
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public Guid CreatedById { get; set; }
-
-    // Navigation
+    
     public User CreatedBy { get; set; } = default!;
     public ICollection<ProjectMember> Members { get; set; } = new List<ProjectMember>();
     public ICollection<Board> Boards { get; set; } = new List<Board>();
